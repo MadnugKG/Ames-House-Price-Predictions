@@ -52,9 +52,13 @@ As the remaining missing row data accouts for less than 5% (~1.9%) of the total 
 
 #### Abnormalities In Data
 It was observed that some numeerical features did not match its categorical features. For example, under House Style, some of the 1Story houses have values for 2nd Flr SF.
+
 <img src="imgs/2nd Floor Area by House Style.png">
+
 Similarly. despite labelled as not having Mas Vnr, some of the houses has non-zero values for Mas Vnr Area. 
+
 <img src="imgs/Mas Vnr Area By Mas Vnr Type.png">
+
 In these cases, such data were assigned 0 to match the categorical features.
 
 
